@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-epilogue bg-main">
+    <header>
+      <nav class="flex pt-6 pl-7 items-center justify-between relative">
+        <div id="logo" class="font-bold text-3xl">Snap</div>
+        <div
+          id="menu"
+          class="md:flex md:justify-between flex-col md:flex-row items-center flex-1 ml-7 h-screen w-3/5 md:h-auto md:static bg-white shadow md:shadow-none absolute right-0 top-0 hidden"
+        >
+          <img
+            src="./images/icon-close-menu.svg"
+            alt=""
+            id="cross"
+            class="md:hidden absolute right-0 top-0 pr-6 pt-6"
+          />
+          <ul id="links" class="Medium-Gray md:flex mt-16 md:mt-0">
+            <li
+              class="pl-9 flex flex-wrap md:justify-center items-center relative "
+            >
+              <a href="#" id="features" class="mr-2 hover:text-black">Features</a>
+              <img
+                src="./images/icon-arrow-up.svg"
+                alt=""
+                class="hidden"
+                id="immm-2"
+              />
+              <img src="./images/icon-arrow-down.svg" alt="" id="image-2" />
+              <ul
+                class="md:absolute top-full mt-5 -left-16 bg-white rounded-lg shadow-lg justify-center items-center hidden"
+                id="linkk"
+              >
+                <li class="flex items-center drop">
+                  <img
+                    src="./images/icon-todo.svg"
+                    alt=""
+                    class="absolute -left-5"
+                  />
+                  <a href="#">Todo List</a>
+                </li>
+                <li class="flex items-center drop">
+                  <img
+                    mt-8
+                    src="./images/icon-calendar.svg"
+                    alt=""
+                    class="absolute -left-5"
+                  />
+                  <a href="#">Calender</a>
+                </li>
+                <li class="flex items-center drop">
+                  <img
+                    src="./images/icon-reminders.svg"
+                    alt=""
+                    class="absolute -left-5"
+                  />
+                  <a href="#">Reminders</a>
+                </li>
+                <li class="flex items-center drop mb-5">
+                  <img
+                    src="./images/icon-planning.svg"
+                    alt=""
+                    class="absolute -left-5"
+                  />
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="pl-9 flex flex-wrap md:justify-center items-center relative md:m-0 mt-8 "
+            >
+              <a href="#" id="compp" class="mr-1 hover:text-black">Company</a>
+              <img src="./images/icon-arrow-down.svg" alt="" id="immm" />
+              <img
+                src="./images/icon-arrow-up.svg"
+                alt=""
+                class="hidden"
+                id="image"
+              />
+              <ul
+                class="md:absolute w-36 top-full mt-5 bg-white rounded-lg ml-4 hidden shadow-lg justify-center items-center"
+                id="company"
+              >
+                <li class="text-center mt-6">
+                  <a href="#" class="m-auto">History</a>
+                </li>
+                <li class="text-center items-center mt-6">
+                  <a href="#" class="m-auto">Our Team</a>
+                </li>
+                <li class="text-center mt-6 mb-6">
+                  <a href="#" class="m-auto">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="pl-9 mt-8 md:m-0 hover:text-black">
+              <a href="#" class="mr-2">Careers</a>
+            </li>
+            <li class="pl-9 mt-8 md:m-0 hover:text-black"><a href="#">About</a></li>
+          </ul>
+          <div
+            id="sign"
+            class="md:pr-4 Medium-Gray md:block mt-8 w-fit m-auto md:m-0"
+          >
+            <span class="mr-4">Login</span>
+            <span
+              id="reg"
+              class="border-2 border-solid rounded-xl border-opacity-50 b-color p-3 text-base"
+              >Register</span
+            >
+          </div>
+        </div>
+        <div class="md:hidden" id="burger">
+          <img src="./images/icon-menu.svg" alt="" class="pr-6" />
+        </div>
+      </nav>
+    </header>
+    <div class="container mt-10 justify-between flex flex-col md:flex-row m-auto container-height">
+      <div id="text" class="flex flex-col  order-2 md:order-1 md:text-start text-center md:m-0 max-w-xs mx-auto self-center h-full flex-1 md:max-w-none md:mb-0">
+        <div id="head" class="text-3xl md:text-7xl mt-12 font-bold md:mt-24 lg:mt-52 ">
+          <span class="md:block">Make</span>
+          <span class="md:block">remote work</span>
+        </div>
+        <p class="mt-4 md:mt-9 md:text-xl text-base Medium-Gray">
+          get you team in sync,no matter your location stramline processes, create
+          team rituals,and watch productivity soar
+        </p>
+        <div id="button" class="m-auto md:mx-0 md:mt-6 mt-2 text-lg border b-color block w-fit py-3 cursor-pointer px-5 rounded-2xl">
+          Learn More
+        </div>
+        <ul class="flex items-center md:items-end md:mt-6 flex-1">
+          <li class="pr-6">
+            <img src="./images/client-audiophile.svg" alt="">
+          </li>
+          <li class="pr-6">
+            <img src="./images/client-maker.svg" alt="">
+          </li>
+          <li class="pr-6">
+            <img src="./images/client-meet.svg" alt="">
+          </li class="pr-6">
+          <li>
+            <img src="./images/client-databiz.svg" alt="">
+          </li>
+        </ul>
+      </div>
+      <div id="photo" class="sm:order-1 md:mt-24  lg:m-0 flex items-end">
+        <img src="./images/image-hero-desktop.png" class="hidden md:block max-h-full" alt="">
+        <img src="./images/image-hero-mobile.png" class="sm:block md:hidden" alt="">
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
