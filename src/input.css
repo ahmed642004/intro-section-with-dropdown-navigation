@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-epilogue {
+  font-family: "Epilogue", sans-serif;
+}
+.Almost-White {
+  color: hsl(0, 0%, 98%);
+}
+.bg-main{
+  background-color: hsl(0, 0%, 98%);
+}
+.Medium-Gray {
+  color: hsl(0, 0%, 41%);
+}
+.Almost-Black{
+    color: hsl(0, 0%, 8%);
+}
+.b-color{
+    border-color:hsl(0, 0%, 41%) ;
+}
+.drop {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+}
+.container-height{
+  height: calc(80vh - 60px);
+}
+#text p {
+ max-width: 500px;
+}
+.mob-height{
+  height: calc(80vh - 60px);
+}
+@media (max-width:375px){
+  #head{
+    margin-top: 16px;
+  }
+}
+@media (max-width:768px){
+  .container{
+    height: calc(100vh - 2.5rem - 60px);
+  }
+}
